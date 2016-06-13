@@ -14,8 +14,6 @@ For further details, see my blog post at
 https://aperiodicity.com/2016/06/02/stellar-distributions/
 """
 
-__author__ = 'Brandon Doyle'
-
 import partials
 from kernel import *
 from numpy.linalg import norm
@@ -23,6 +21,9 @@ from numpy.random import randn
 import numpy as np
 import pyfits
 import sys
+
+__author__ = "Brandon Doyle"
+__email__ = "bjd2385@aperiodicity.com"
 
 class GD(object):
     def __init__(self, array, form, derivatives, max_iterations=1000, \
