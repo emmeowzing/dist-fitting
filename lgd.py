@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""
+r"""
 A simple gradient descent class for fitting Gaussian and Moffat functions.
 
 It has been written, however, to accept any surface and that function's first
