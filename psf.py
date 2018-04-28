@@ -1,8 +1,7 @@
 #! /usr/bin/env python3.6
 # -*- coding: utf-8 -*-
 
-from typing import Tuple
-from types import FunctionType as Function
+from typing import Tuple, Callable as Function
 from functools import wraps
 from scipy.integrate import dblquad
 from math import pi
